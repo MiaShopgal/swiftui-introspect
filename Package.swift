@@ -10,9 +10,9 @@ let package = Package(
         .macOS(.v10_15),
     ],
     products: [
-        .library(name: "SwiftUIIntrospect", targets: ["SwiftUIIntrospect"]),
-        .library(name: "SwiftUIIntrospect-Static", type: .static, targets: ["SwiftUIIntrospect"]),
-        .library(name: "SwiftUIIntrospect-Dynamic", type: .dynamic, targets: ["SwiftUIIntrospect"]),
+        .library(name: "SwiftUIIntrospect", targets: ["SwiftUIIntrospect"])
+//        .library(name: "SwiftUIIntrospect-Static", type: .static, targets: ["SwiftUIIntrospect"]),
+//        .library(name: "SwiftUIIntrospect-Dynamic", type: .dynamic, targets: ["SwiftUIIntrospect"]),
     ],
     targets: [
         .target(
